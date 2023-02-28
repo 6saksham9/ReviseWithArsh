@@ -1,8 +1,7 @@
 class Solution {
 public:
 #define ll long long int
-    int evalRPN(vector<string>& tokens) {
-        
+    int evalRPN(vector<string>& tokens) {        
         stack<string> s;
 
        for(int i=0;i<tokens.size();i++)
