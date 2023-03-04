@@ -21,7 +21,6 @@ public:
                s.pop();
                s.push(to_string(y-x));
            }
-
            else if(tokens[i]=="*"){
                ll x=stol(s.top());
                s.pop();
